@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  xdao-docs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: xdao-docs:latest
+    container_name: xdao-docs
+    ports:
+      - "80:80"
+      - "443:443"  # Раскомментируйте, если используете HTTPS
+    volumes:
+      - nginx_logs:/var/log/nginx
+      # - ./ssl:/etc/ssl:ro  # Раскомментируйте, если используете SSL сертификаты
+    restart: unless-stopped
+    networks:
+      - xdao-docs
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost/"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 10s
+
+  # Дополнительный сервис для разработки (разкомментируйте для development режима)
+  # mkdocs-dev:
+  #   image: python:3.11-slim
+  #   container_name: xdao-docs-dev
+  #   working_dir: /docs
+  #   volumes:
+  #     - .:/docs
+  #   ports:
+  #     - "8000:8000"
+  #   command: |
+  #     sh -c "
+  #       pip install -r requirements.txt &&
+  #       mkdocs serve --dev-addr=0.0.0.0:8000
+  #     "
+  #   restart: unless-stopped
+  #   networks:
+  #     - xdao-docs
+
+volumes:
+  nginx_logs:
+
+networks:
+  xdao-docs:
+    driver: bridge
