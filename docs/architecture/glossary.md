@@ -1,0 +1,8 @@
+---
+description: There are terms, abbreviations and definitions used in the XDAO documentation.
+---
+
+# Glossary
+
+<table><thead><tr><th width="230">Term</th><th>Definition</th></tr></thead><tbody><tr><td>TON (The Open Network)</td><td>A decentralized blockchain platform originally developed by Telegram. Used for smart contracts, payments, NFTs, GameFi, and Web3 applications.</td></tr><tr><td>DAO (Digital Autonomous Organization)</td><td>A project governance structure where decisions are made automatically or through member voting.</td></tr><tr><td>XDAO</td><td>A platform for creating and managing DAOs, supporting multisig, voting, and treasury functions.</td></tr><tr><td>Telegram WebApp</td><td>An embeddable web application that opens within Telegram. Allows interaction with app through a full-fledged user interface.</td></tr><tr><td>TON Wallet</td><td>A wallet for storing tokens and managing assets on the TON network. Supports message signing and interaction with DApps.</td></tr><tr><td>Signature</td><td>A cryptographic operation confirming that a user owns a wallet’s private key without revealing the key itself.</td></tr><tr><td>Crowdfunding</td><td>A collective fundraising mechanism for a DAO or related initiatives.</td></tr><tr><td>Proposal</td><td>A formalized action submitted for voting in a DAO. Examples: changing a name, transferring funds, adding a partner.</td></tr><tr><td>Governance Token</td><td>A token granting its holder voting rights in a DAO. Can be used for weighted voting or determining a quorum.</td></tr><tr><td>Consensus</td><td>A condition under which a proposal is considered approved. Can be absolute (e.g., >50%) or require unanimity.</td></tr></tbody></table>
+
