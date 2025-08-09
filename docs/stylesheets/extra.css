@@ -175,3 +175,79 @@
 ::-webkit-scrollbar-thumb:hover {
   background-color: #1976d2;
 }
+
+/* Пошаговые блоки - стили для замены stepper */
+.md-typeset .admonition.note[title^="1."],
+.md-typeset .admonition.note[title^="2."],
+.md-typeset .admonition.note[title^="3."],
+.md-typeset .admonition.note[title^="4."],
+.md-typeset .admonition.note[title^="5."],
+.md-typeset .admonition.note[title^="6."],
+.md-typeset .admonition.note[title^="7."],
+.md-typeset .admonition.note[title^="8."],
+.md-typeset .admonition.note[title^="9."] {
+  border-left: 4px solid #1565c0;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(26, 35, 126, 0.1);
+  position: relative;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.note[title^="1."],
+[data-md-color-scheme="slate"] .md-typeset .admonition.note[title^="2."],
+[data-md-color-scheme="slate"] .md-typeset .admonition.note[title^="3."],
+[data-md-color-scheme="slate"] .md-typeset .admonition.note[title^="4."],
+[data-md-color-scheme="slate"] .md-typeset .admonition.note[title^="5."],
+[data-md-color-scheme="slate"] .md-typeset .admonition.note[title^="6."],
+[data-md-color-scheme="slate"] .md-typeset .admonition.note[title^="7."],
+[data-md-color-scheme="slate"] .md-typeset .admonition.note[title^="8."],
+[data-md-color-scheme="slate"] .md-typeset .admonition.note[title^="9."] {
+  border-left: 4px solid #2196f3;
+  box-shadow: 0 2px 8px rgba(33, 150, 243, 0.1);
+}
+
+/* Стили для tip блоков */
+.md-typeset .admonition.tip {
+  border-left: 4px solid #4caf50;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.1);
+  margin-bottom: 1rem;
+}
+
+.md-typeset .admonition.tip > .admonition-title {
+  background-color: rgba(76, 175, 80, 0.1);
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.tip {
+  border-left: 4px solid #66bb6a;
+  box-shadow: 0 2px 8px rgba(102, 187, 106, 0.1);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.tip > .admonition-title {
+  background-color: rgba(102, 187, 106, 0.1);
+  color: #81c784;
+}
+
+/* Анимация для адмонишенов */
+.md-typeset .admonition {
+  transition: all 0.3s ease;
+}
+
+.md-typeset .admonition:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(26, 35, 126, 0.15);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition:hover {
+  box-shadow: 0 4px 16px rgba(33, 150, 243, 0.15);
+}
+
+.md-typeset .admonition.tip:hover {
+  box-shadow: 0 4px 16px rgba(76, 175, 80, 0.15);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.tip:hover {
+  box-shadow: 0 4px 16px rgba(102, 187, 106, 0.15);
+}

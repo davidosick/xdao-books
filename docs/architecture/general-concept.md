@@ -12,31 +12,17 @@ The architecture of XDAO TON is designed to bring the full power of Digital Auto
 
 ## Key Principles
 
-{% stepper %}
-{% step %}
-### Telegram-First
+!!! note "1. Telegram-First"
+    All core interactions happen inside a Telegram Mini App, offering a seamless UX for creating and managing a DAO directly in app.
 
-All core interactions happen inside a Telegram Mini App, offering a seamless UX for creating and managing a DAO directly in app.
-{% endstep %}
+!!! note "2. TON Native"
+    The backend operates on the TON blockchain, using native smart contracts for asset management, voting, and consensus.
 
-{% step %}
-### TON Native
+!!! note "3. Modular Micro-Architecture"
+    Every feature — from treasury to proposals — is modular and replaceable. This allows different types of DAOs (startups, communities, investment clubs) to be built on the same foundation.
 
-The backend operates on the TON blockchain, using native smart contracts for asset management, voting, and consensus.&#x20;
-{% endstep %}
-
-{% step %}
-### Modular Micro-Architecture ???
-
-Every feature — from treasury to proposals — is modular and replaceable. This allows different types of DAOs (startups, communities, investment clubs) to be built on the same foundation.&#x20;
-{% endstep %}
-
-{% step %}
-### Secure by Design
-
-Wallets are non-custodial, private keys are never exposed, and transactions are signed by the user.
-{% endstep %}
-{% endstepper %}
+!!! note "4. Secure by Design"
+    Wallets are non-custodial, private keys are never exposed, and transactions are signed by the user.
 
 ## High-Level Components
 

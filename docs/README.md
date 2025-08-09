@@ -27,25 +27,14 @@ This is a Telegram-native WebApp for creating and managing DAOs, built on top of
 
 
 
-{% stepper %}
-{% step %}
-### Just Telegram&#x20;
+!!! tip "Just Telegram"
+    No external apps or complex setups required — everything works directly in Telegram.
 
+!!! tip "Just a MiniApp"
+    Lightweight interface that runs seamlessly within Telegram's ecosystem.
 
-{% endstep %}
-
-{% step %}
-### Just a MiniApp
-
-
-{% endstep %}
-
-{% step %}
-### Just you and your DAO
-
-
-{% endstep %}
-{% endstepper %}
+!!! tip "Just you and your DAO"
+    Direct, secure interaction with your decentralized organization.
 
 ## App Functionality
 
