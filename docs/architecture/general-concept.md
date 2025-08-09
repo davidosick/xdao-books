@@ -32,7 +32,7 @@ The architecture of XDAO TON is designed to bring the full power of Digital Auto
 
 ## Lifecycle of a DAO Action
 
-<img src="../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+<img src="/xdao-books/assets/images/file.excalidraw.svg" alt="Lifecycle">
 
 **Initiation.** A DAO member creates a proposal inside the Telegram interface.
 

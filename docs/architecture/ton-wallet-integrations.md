@@ -6,12 +6,8 @@ We support seamless interaction with several TON wallets that are compatible wit
 
 **Supported Wallets**
 
-{% columns %}
-{% column %}
-<figure><img src="../.gitbook/assets/Frame 5.jpg" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
+<figure><img src="/xdao-books/assets/images/integrations.jpg" alt="Integrations"></figure>
 
-{% column %}
 We aim to provide a frictionless experience for users of these wallets, supporting features like:
 
 * Connect Wallet
@@ -19,8 +15,6 @@ We aim to provide a frictionless experience for users of these wallets, supporti
 * Send Transaction
 * Check Wallet Address Ownership
 * View On-chain Balance
-{% endcolumn %}
-{% endcolumns %}
 
 ## Integration Flow
 
