@@ -7,18 +7,18 @@ site_url: https://davidosick.github.io/xdao-books/
 theme:
   name: material
   language: en
-  logo: assets/images/xdao.svg
+  logo: assets/images/favicon.png
   palette:
     # Palette toggle for light mode
     - scheme: default
-      primary: blue
+      primary: indigo
       accent: blue
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     # Palette toggle for dark mode
     - scheme: slate
-      primary: blue
+      primary: indigo
       accent: blue
       toggle:
         icon: material/brightness-4
@@ -85,6 +85,10 @@ extra:
       link: https://t.me/xdao_app
     - icon: fontawesome/solid/globe
       link: https://xdao.app/
+
+# Extra CSS
+extra_css:
+  - stylesheets/extra.css
 
 # Copyright
 copyright: Copyright &copy; 2025 XDAO
