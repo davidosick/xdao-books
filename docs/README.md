@@ -53,14 +53,15 @@ Instead of navigating external websites, installing browser extensions, or deali
 
 ### Who can use the XDAO TON?
 
-XDAO TON is designed for all participants in the TON ecosystem who rely on DAO as a governance mechanism. Specifically, it can be used by:\
-• **Venture capital funds** and **investment structures** for collaborative decision-making and transparent resource allocation\
-• **Asset management companies** to manage digital assets on TON in a decentralized way\
-• **Public funds** and **non-profit organizations** to increase transparency and stakeholder engagement\
-• **Startups** and **project teams** to coordinate internal processes via DAO governance\
-• **DeFi protocols** for protocol-level governance and community-driven development\
-• **Freelance collectives** and **DAO-based teams** to jointly manage treasuries and decisions\
-• **NFT communities** and **GameFi guilds** to manage roles, permissions, and assets
+XDAO TON is designed for all participants in the TON ecosystem who rely on DAO as a governance mechanism. Specifically, it can be used by:
+
+* **Venture capital funds** and **investment structures** for collaborative decision-making and transparent resource allocation
+* **Asset management companies** to manage digital assets on TON in a decentralized way
+* **Public funds** and **non-profit organizations** to increase transparency and stakeholder engagement
+* **Startups** and **project teams** to coordinate internal processes via DAO governance
+* **DeFi protocols** for protocol-level governance and community-driven development
+* **Freelance collectives** and **DAO-based teams** to jointly manage treasuries and decisions
+* **NFT communities** and **GameFi guilds** to manage roles, permissions, and assets
 
 ## What should you know before using it?
 

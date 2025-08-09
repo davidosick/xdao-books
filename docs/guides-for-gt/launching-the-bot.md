@@ -2,7 +2,7 @@
 
 {% columns %}
 {% column %}
-<figure><img src="../.gitbook/assets/photo_2025-08-08_13-13-14.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="/xdao-books/assets/images/welcome.jpg" alt=""></figure>
 {% endcolumn %}
 
 {% column %}
