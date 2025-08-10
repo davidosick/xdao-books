@@ -27,7 +27,7 @@ RUN mkdocs build --clean --strict
 # ================================
 # Этап 2: Настройка nginx
 # ================================
-FROM nginx:alpine
+FROM nginx:1.29-alpine3.22
 
 # Установка дополнительных пакетов для nginx
 RUN apk add --no-cache \
