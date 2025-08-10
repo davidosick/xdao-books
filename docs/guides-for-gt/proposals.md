@@ -44,7 +44,7 @@ Select the type of proposal that best fits your needs:
 - **Send DAO Funds** - Propose spending from the DAO treasury
 - **Change DAO Name** - Update the name of your DAO
 
-![Select DAO and Proposal Type](../assets/images/proposals/createProposal.jpg)
+![Select DAO and Proposal Type](/xdao-books/assets/images/proposals/createProposal.jpg)
 
 ## Step 4: Fill in All Required Fields
 
