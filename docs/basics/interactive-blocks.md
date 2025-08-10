@@ -23,7 +23,7 @@ The WebApp only works inside Telegram. Make sure you're using the **Telegram mob
 
 
 
-**How do I log in to the bot?**
+**How do I log in to the app?**
 
 Select your **TON wallet** (Tonkeeper, Tonhub, OpenMask), and it will prompt you to **sign a message**—this verifies your identity. No usernames or passwords are required.
 

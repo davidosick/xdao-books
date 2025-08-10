@@ -12,7 +12,7 @@
 
 ## GUIDES FOr GT
 
-* [Launching the Bot](guides-for-gt/launching-the-bot.md)
+* [Launching the App](guides-for-gt/launching-the-bot.md)
 * [Connecting Wallet](guides-for-gt/connecting-wallet.md)
 * [Create a DAO](guides-for-gt/create-a-dao.md)
 * [DAO Information](guides-for-gt/dao-information.md)

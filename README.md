@@ -1,65 +1,65 @@
 # XDAO TON Documentation
 
-Документация для XDAO TON - Telegram-native WebApp для создания и управления DAO на блокчейне TON.
+Documentation for XDAO TON - a Telegram-native WebApp for creating and managing DAOs on the TON blockchain.
 
-## Установка и запуск
+## Installation and Launch
 
-### Требования
+### Requirements
 
 - Python 3.8+
 - pip
 
-### Установка зависимостей
+### Installing Dependencies
 
 ```bash
-# Установка зависимостей
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-### Локальная разработка
+### Local Development
 
 ```bash
-# Запуск локального сервера с автообновлением
+# Start a local server with auto-reloading
 mkdocs serve
 ```
 
-Сайт будет доступен по адресу: http://127.0.0.1:8000
+The site will be available at: http://127.0.0.1:8000
 
-### Сборка HTML файлов
+### Building HTML Files
 
 ```bash
-# Сборка статических HTML файлов в папку site/
+# Build static HTML files into the site/ directory
 mkdocs build
 ```
 
-### Деплой на GitHub Pages
+### Deploying to GitHub Pages
 
 ```bash
-# Автоматический деплой на GitHub Pages
+# Automatically deploy to GitHub Pages
 mkdocs gh-deploy --clean
 ```
 
-## Структура проекта
+## Project Structure
 
 ```
 .
-├── docs/                 # Исходные markdown файлы
-│   ├── README.md         # Главная страница
-│   ├── SUMMARY.md        # Содержание (не используется в MkDocs)
-│   ├── architecture/     # Документация архитектуры
-│   ├── guides-for-gt/    # Руководства пользователя
-│   └── basics/          # Базовая информация
-├── mkdocs.yml           # Конфигурация MkDocs
-├── requirements.txt     # Python зависимости
-└── site/               # Собранные HTML файлы (автогенерируется)
+├── docs/                 # Source markdown files
+│   ├── README.md         # Main page
+│   ├── SUMMARY.md        # Table of contents (not used in MkDocs)
+│   ├── architecture/     # Architecture documentation
+│   ├── guides-for-gt/    # User guides
+│   └── basics/          # Basic information
+├── mkdocs.yml           # MkDocs configuration
+├── requirements.txt     # Python dependencies
+└── site/               # Built HTML files (auto-generated)
 ```
 
 
-## Редактирование документации
+## Editing the Documentation
 
-1. Все markdown файлы находятся в папке `docs/`
-2. Навигация настраивается в `mkdocs.yml` в секции `nav:`
-3. После изменений запустите `mkdocs serve` для предварительного просмотра
+1. All markdown files are located in the `docs/` folder.
+2. Navigation is configured in `mkdocs.yml` in the `nav:` section.
+3. After making changes, run `mkdocs serve` to preview.
 
 ## Ссылки
 

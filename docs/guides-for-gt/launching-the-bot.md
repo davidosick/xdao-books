@@ -1,4 +1,4 @@
-# Launching the Bot
+# Launching the app
 
 <figure style="float: left; margin-right: 20px; max-width: 250px;"><img src="/xdao-books/assets/images/welcome.jpg" alt="" style="width: 100%; height: auto;"></figure>
 

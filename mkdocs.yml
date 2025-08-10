@@ -69,7 +69,7 @@ nav:
     - TON Smart Contracts: architecture/ton-smart-contracts.md
     - TON Wallet Integrations: architecture/ton-wallet-integrations.md
   - Guides:
-    - Launching the Bot: guides-for-gt/launching-the-bot.md
+    - Launching the app: guides-for-gt/launching-the-bot.md
     - Connecting Wallet: guides-for-gt/connecting-wallet.md
     - Create a DAO: guides-for-gt/create-a-dao.md
     - DAO Information: guides-for-gt/dao-information.md
