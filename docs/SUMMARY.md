@@ -15,8 +15,8 @@
 * [Launching the App](guides-for-gt/launching-the-bot.md)
 * [Connecting Wallet](guides-for-gt/connecting-wallet.md)
 * [Create a DAO](guides-for-gt/create-a-dao.md)
-* [DAO Information](guides-for-gt/dao-information.md)
-* [Proposals](guides-for-gt/proposals.md)
+* [DAO Balance](guides-for-gt/dao-balance.md)
+* [Creating a Proposal](guides-for-gt/proposals.md)
 
 ## Basics
 

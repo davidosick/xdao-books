@@ -72,8 +72,10 @@ nav:
     - Launching the app: guides-for-gt/launching-the-bot.md
     - Connecting Wallet: guides-for-gt/connecting-wallet.md
     - Create a DAO: guides-for-gt/create-a-dao.md
-    - DAO Information: guides-for-gt/dao-information.md
+    - DAO Balance: guides-for-gt/dao-balance.md
     - Proposals: guides-for-gt/proposals.md
+    - Airdrop: guides-for-gt/airdrop.md
+    - DAO Settings: guides-for-gt/dao-settings.md
   - Basics:
     - FAQ: basics/interactive-blocks.md
     - Contact us: basics/integrations.md
